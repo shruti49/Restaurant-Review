@@ -1,8 +1,6 @@
 # Restaurant Review App
 
-This app is created as part of the Udacity Nanodegree "FRONT END".
-
-![Screenshot](Screenshot.png)
+This app is created as part of the "FRONT END" Udacity Nanodegree.
 
 #### This app focuses on
 
