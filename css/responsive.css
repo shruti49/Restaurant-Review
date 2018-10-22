@@ -72,7 +72,12 @@
 
 @media screen and (min-width: 1200px) {
  #restaurant-img {
-    height: 300px;
-    width: 700px;
+    height: 460px;
+    width: 750px;
+  }
+
+    #restaurant-hours {
+    width: 600px;
+    height: 400px;
   }
 }
