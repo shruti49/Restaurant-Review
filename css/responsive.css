@@ -10,6 +10,7 @@
 
   #restaurant-container {
     flex-flow: column;
+    width: 94%;
   }
 
   .restaurant-pretty {
@@ -24,6 +25,9 @@
     height: 200px;
     width: auto;
   }
+  #restaurant-hours {
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 503px) {
@@ -36,14 +40,39 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  #restaurant-img {
+    height: 300px;
+  }
+
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 582px) {
+ #restaurant-hours {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 899px) {
   #restaurant-hours {
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
   }
   #restaurants-list li {
     max-width: 25%;
+  }
+  .restaurant-info{
+    margin-right: 0px;
+  }
+
+   #restaurant-img {
+    height: 365px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+ #restaurant-img {
+    height: 300px;
+    width: 700px;
   }
 }
